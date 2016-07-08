@@ -60,7 +60,7 @@ int main()
 						itoa(second, SECOND, 10);
 						LCD_write_str(SECOND);
 					}
-					_delay_ms(900);
+					_delay_ms(870);
 
 /*					itoa(hour, BUF_H, 10);
 					itoa(minuts, BUF_M, 10);

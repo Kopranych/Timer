@@ -22,7 +22,7 @@ void LCD_init()
 	LCD_write(BUS_LINE,RS_COM);
 	LCD_write(0x01,RS_COM);//очистка экрана
 	LCD_write(0x06,RS_COM);//инкремент адреса экран не движется
-	
+	_delay_ms(40);
 	LCD_write(0x0C,RS_COM);//включить дисплей
 
 }
